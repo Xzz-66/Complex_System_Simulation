@@ -3,7 +3,7 @@
 This repository contains a project for the course **Complex System Simulation**.  
 The project studies how **cooperation emerges and persists on networks** using the **Prisoner’s Dilemma** as the interaction model.
 
-The main goal is to understand how network structure, update rules, and control parameters affect long-run cooperation, cooperative cluster formation, and possible phase-transition-like behavior.  [oai_citation:1‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+The main goal is to understand how network structure, update rules, and control parameters affect long-run cooperation, cooperative cluster formation, and possible phase-transition-like behavior. 
 
 ## Project Overview
 
@@ -12,7 +12,7 @@ Agents are placed on a graph \(G=(V,E)\). Each agent chooses either:
 - **C**: cooperate
 - **D**: defect
 
-At each time step, agents interact with their neighbors and update their strategies according to a chosen rule. The project investigates several research questions, including:  [oai_citation:2‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+At each time step, agents interact with their neighbors and update their strategies according to a chosen rule. The project investigates several research questions, including: 
 
 - Can cooperation persist instead of collapsing to full defection?
 - Which network structures promote cooperation?
@@ -22,7 +22,7 @@ At each time step, agents interact with their neighbors and update their strateg
 
 ## Research Questions
 
-The project is organized around the following questions:  [oai_citation:3‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+The project is organized around the following questions: 
 
 ### RQ0: Baseline existence
 Can cooperation persist under a given network family, payoff setting, and update rule?
@@ -41,7 +41,7 @@ If edges are allowed to rewire, does coevolution of network structure and strate
 
 ## Measurements
 
-To answer these questions, the project uses several quantitative measurements, including:  [oai_citation:4‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+To answer these questions, the project uses several quantitative measurements, including: 
 
 - global cooperation fraction
 - long-run average cooperation
@@ -56,7 +56,7 @@ To answer these questions, the project uses several quantitative measurements, i
 
 ## Network Models
 
-The project compares several network families under matched settings such as network size and mean degree. Recommended network types include:  [oai_citation:5‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+The project compares several network families under matched settings such as network size and mean degree. Recommended network types include: 
 
 - 2D lattice / grid
 - Erdős–Rényi (ER)
@@ -68,7 +68,7 @@ These networks differ in clustering, path length, heterogeneity, and modularity,
 
 ## Interaction Model
 
-The main game is the **Prisoner’s Dilemma**, implemented either with canonical payoff notation \((T,R,P,S)\) or with the donation-game form using benefit \(b\) and cost \(c\). Agents play with all neighbors and accumulate payoff over the network.  [oai_citation:6‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+The main game is the **Prisoner’s Dilemma**, implemented either with canonical payoff notation \((T,R,P,S)\) or with the donation-game form using benefit \(b\) and cost \(c\). Agents play with all neighbors and accumulate payoff over the network.  
 
 The project can compare:
 
@@ -80,7 +80,7 @@ and different update schemes such as:
 - imitate-best
 - Fermi rule
 - synchronous updates
-- asynchronous updates  [oai_citation:7‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+- asynchronous updates 
 
 ## Files
 
@@ -105,7 +105,7 @@ Notebook for **RQ3: Phase transitions / percolation-like behavior**.
 Analyzes whether varying a control parameter leads to sharp transitions in cooperative structure.
 
 ### `Assumption_and_Equation.pdf`
-Project summary document containing the formal research questions, hypotheses, model assumptions, measurements, and implementation plan.  [oai_citation:8‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+Project summary document containing the formal research questions, hypotheses, model assumptions, measurements, and implementation plan.  
 
 ## Methods
 
@@ -121,7 +121,7 @@ The project combines:
 
 ## Hypotheses
 
-The project is guided by several hypotheses, including:  [oai_citation:9‡Assumption_and_Equation.pdf](sediment://file_000000000fb4720a9ab86e4edd23940c)
+The project is guided by several hypotheses, including: 
 
 - higher clustering may support cooperation
 - degree heterogeneity may help or hurt depending on payoff normalization and update rule
